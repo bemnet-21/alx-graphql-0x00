@@ -1,0 +1,14 @@
+query characterDetails($id: ID!) {
+  character(id: $id) {
+    id,
+    name,
+    status,
+    species,
+    type,
+    gender
+  }
+}
+
+variables: {
+  "id": "4"
+}
