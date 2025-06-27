@@ -1,0 +1,14 @@
+query characterDetails($page: Int!) {
+  characters(page: $page) {
+    results {
+      id,
+      name,
+      status,
+      image
+    }
+  }
+}
+
+variables: {
+    "page": 3
+}
