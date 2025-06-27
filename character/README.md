@@ -1,2 +1,2 @@
-# alx-graphql-0x00
-This repository is for learning and practicing **GraphQL** queries, mutations, and pagination. Ideal for frontend or full-stack developers who want hands-on experience with GraphQL concepts using public API [Rick and Morty GraphQL API](https://rickandmortyapi.com/graphql).
+##character
+This directory is the graphql query and output of character details and paginated list of characters
