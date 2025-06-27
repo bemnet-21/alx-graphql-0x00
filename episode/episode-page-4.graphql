@@ -1,0 +1,12 @@
+query episodeDetails($id: ID!) {
+  episode(id: $id) {
+    id,
+    name,
+    air_date,
+    episode
+  }
+}
+
+variables {
+    "id": "4"
+}
